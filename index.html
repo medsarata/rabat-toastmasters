@@ -47,7 +47,7 @@
       <h1 data-i18n-html="hero_h">Prenez la parole.<br><em>Devenez leader.</em></h1>
       <p data-i18n="hero_p">Depuis 2018, le Rabat Toastmasters Club aide chacun à parler en public avec confiance, à écouter, à évaluer et à diriger — dans une ambiance bienveillante, un samedi après l'autre.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="https://forms.gle/HSNkp62Zub6JzqaP8" target="_blank" rel="noopener" data-i18n="cta_guest">Venir en invité — gratuit</a>
+        <a class="btn btn-primary" href="#inscription" data-i18n="cta_guest">Venir en invité — gratuit</a>
         <a class="btn btn-ghost" href="#reunions" data-i18n="cta_meet">Voir nos réunions</a>
       </div>
     </div>
@@ -78,7 +78,7 @@
     <p class="lead" data-i18n="ag_p">Chaque mois, un cycle de trois réunions autour d'un même thème pour progresser pas à pas. Les invités sont les bienvenus à chaque séance.</p>
     <p class="ag-room"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="agenda-room"></span></p>
     <div class="cycles" id="agenda-list"></div>
-    <p style="margin-top:28px"><a class="btn btn-primary" href="https://forms.gle/HSNkp62Zub6JzqaP8" target="_blank" rel="noopener" data-i18n="cta_guest">Venir en invité — gratuit</a></p>
+    <p style="margin-top:28px"><a class="btn btn-primary" href="#inscription" data-i18n="cta_guest">Venir en invité — gratuit</a></p>
   </div>
 </section>
 
@@ -242,9 +242,40 @@
       <div class="js"><div class="n">2</div><h4 data-i18n="j2h">Assistez à une réunion</h4><p data-i18n="j2p">Découvrez l'ambiance, les rôles et le programme. Aucune obligation de parler.</p></div>
       <div class="js"><div class="n">3</div><h4 data-i18n="j3h">Devenez membre</h4><p data-i18n="j3p">Adhérez à Toastmasters International via le club et commencez votre parcours Pathways.</p></div>
     </div>
+
+    <div class="form-card" id="inscription">
+      <div class="fc-head">
+        <h3 data-i18n="fm_h">Réservez votre place d'invité</h3>
+        <p data-i18n="fm_p">Remplissez ce formulaire : un membre du bureau vous recontacte pour confirmer votre venue.</p>
+      </div>
+      <form name="inscription-invite" method="POST" action="/merci.html" data-netlify="true" netlify-honeypot="bot-field" id="guest-form">
+        <input type="hidden" name="form-name" value="inscription-invite">
+        <input type="hidden" name="langue-du-site" id="f-sitelang" value="fr">
+        <p class="hp"><label>Ne pas remplir <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <div class="fg">
+          <label><span class="lbl"><span data-i18n="fm_name">Nom et prénom</span> <i>*</i></span><input name="nom" required autocomplete="name"></label>
+          <label><span class="lbl"><span data-i18n="fm_email">E-mail</span> <i>*</i></span><input type="email" name="email" required autocomplete="email"></label>
+          <label><span class="lbl"><span data-i18n="fm_phone">Téléphone / WhatsApp</span> <i>*</i></span><input type="tel" name="telephone" required autocomplete="tel" dir="ltr" placeholder="+212 6 00 00 00 00"></label>
+          <label><span class="lbl"><span data-i18n="fm_session">Réunion souhaitée</span> <i>*</i></span><select name="reunion" id="f-session" required><option value="" data-i18n="fm_choose">Choisissez une date</option></select></label>
+          <label><span data-i18n="fm_lang">Langue préférée</span><select name="langue">
+            <option value="Français">Français</option><option value="English">English</option><option value="العربية">العربية</option><option value="Peu importe" data-i18n="fm_any">Peu importe</option></select></label>
+          <label><span data-i18n="fm_src">Comment nous avez-vous connus ?</span><select name="source">
+            <option value="Instagram">Instagram</option><option value="Facebook">Facebook</option><option value="LinkedIn">LinkedIn</option>
+            <option value="Bouche-à-oreille" data-i18n="fm_s1">Un ami / un membre</option><option value="Google" data-i18n="fm_s2">Recherche Google</option><option value="Autre" data-i18n="fm_s3">Autre</option></select></label>
+          <label class="full"><span data-i18n="fm_msg">Votre objectif ou une question (facultatif)</span><textarea name="message" rows="3" data-i18n-ph="fm_msg_ph" placeholder="Ex. : gagner en aisance pour mes présentations au travail"></textarea></label>
+          <label class="full chk"><input type="checkbox" name="consentement" value="oui" required><span data-i18n="fm_consent">J'accepte que le club me contacte par e-mail, téléphone ou WhatsApp au sujet de ma visite.</span></label>
+        </div>
+        <button class="btn btn-primary" type="submit" id="f-btn" data-i18n="fm_send">Envoyer mon inscription</button>
+        <p class="f-err" id="f-err" hidden data-i18n="fm_err">Oups, l'envoi a échoué. Réessayez ou écrivez-nous sur WhatsApp.</p>
+      </form>
+      <div class="f-ok" id="f-ok" hidden>
+        <div class="ok-ico">✓</div>
+        <h3 data-i18n="fm_ok_h">Merci, c'est noté !</h3>
+        <p data-i18n="fm_ok_p">Votre demande est bien arrivée. Nous vous recontactons très vite pour confirmer. À samedi !</p>
+      </div>
+    </div>
     <div class="contact">
-      <a class="btn btn-yellow" href="https://forms.gle/HSNkp62Zub6JzqaP8" target="_blank" rel="noopener" data-i18n="j_form">Formulaire d'inscription invité</a>
-      <a class="btn btn-ghost" href="https://wa.me/212772182258" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="btn btn-ghost" href="https://wa.me/212772182258" target="_blank" rel="noopener">WhatsApp</a>
       <a class="btn btn-ghost" href="https://www.toastmasters.org/Find-a-Club/05894368-rabat-toastmasters-club" target="_blank" rel="noopener" data-i18n="j_ti">Fiche officielle du club</a>
     </div>
   </div>
@@ -286,5 +317,6 @@
 <script src="js/agenda-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/agenda.js"></script>
+<script src="js/form.js"></script>
 </body>
 </html>

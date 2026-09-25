@@ -97,7 +97,8 @@ tq_eye:"They say it best",tq:"Renewing my membership allows me to keep growing i
 al_more:"See the full album",
 q3:"What language are meetings held in?",a3:"Our meetings are held in three languages: French, English and Arabic. Each member can practise in the language of their choice, and the club takes part in District 107 contests.",
 al_eye:"Photo album",al_h:"Club memories",al_p:"Meetings, contests, celebrations and district events: browse the club's photos. Click a picture to enlarge it.",
-f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site",nav_agenda:"Agenda",next_prog:"See the full programme →",ag_eye:"Agenda",ag_h:"Our programme for the coming months",ag_p:"Each month, a cycle of three meetings around one theme to grow step by step. Guests are welcome at every session."});
+f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site",nav_agenda:"Agenda",next_prog:"See the full programme →",ag_eye:"Agenda",ag_h:"Our programme for the coming months",ag_p:"Each month, a cycle of three meetings around one theme to grow step by step. Guests are welcome at every session.",
+fm_h:"Book your guest seat",fm_p:"Fill in this form and a board member will get back to you to confirm your visit.",fm_name:"Full name",fm_email:"Email",fm_phone:"Phone / WhatsApp",fm_session:"Preferred meeting",fm_choose:"Choose a date",fm_lang:"Preferred language",fm_any:"No preference",fm_src:"How did you hear about us?",fm_s1:"A friend / a member",fm_s2:"Google search",fm_s3:"Other",fm_msg:"Your goal or a question (optional)",fm_msg_ph:"E.g. feel more at ease presenting at work",fm_consent:"I agree that the club may contact me by email, phone or WhatsApp about my visit.",fm_send:"Send my registration",fm_err:"Oops, sending failed. Please try again or message us on WhatsApp.",fm_ok_h:"Thank you, you're registered!",fm_ok_p:"Your request has arrived. We'll get back to you very soon to confirm. See you on Saturday!"});
 Object.assign(T.ar,{
 next_lang:"لقاءات بالفرنسية والإنجليزية والعربية",st2:"لقاء منذ التأسيس",st3:"لغات اللقاءات",
 nav_album:"ألبوم الصور",t6p:"أكثر من 300 لقاء، ولقاءات دولية مشتركة، ومسابقات على مستوى المنطقة والمقاطعة، ومجتمع يضم أكثر من 1300 متابع.",
@@ -110,17 +111,20 @@ tq_eye:"بكلماتهم",tq:"تجديد عضويتي يتيح لي مواصلة
 al_more:"شاهد الألبوم كاملاً",
 q3:"بأي لغة تُعقد اللقاءات؟",a3:"تُعقد لقاءاتنا بثلاث لغات: الفرنسية والإنجليزية والعربية. يمكن لكل عضو أن يتدرّب باللغة التي يختارها، ويشارك النادي في مسابقات المقاطعة 107.",
 al_eye:"ألبوم الصور",al_h:"ذكريات النادي",al_p:"لقاءات ومسابقات واحتفالات وأنشطة المقاطعة: تصفّح صور النادي. انقر على صورة لتكبيرها.",
-f_all:"الكل",f_contest:"المسابقات",f_meet:"اللقاءات والجوائز",f_party:"الاحتفالات",f_district:"المقاطعة",f_life:"حياة النادي",al_back:"العودة إلى الموقع",nav_agenda:"البرنامج",next_prog:"اطّلع على البرنامج الكامل ←",ag_eye:"البرنامج",ag_h:"برنامج الأشهر القادمة",ag_p:"كل شهر، دورة من ثلاثة لقاءات حول موضوع واحد للتقدّم خطوة بخطوة. الضيوف مرحّب بهم في كل لقاء."});
+f_all:"الكل",f_contest:"المسابقات",f_meet:"اللقاءات والجوائز",f_party:"الاحتفالات",f_district:"المقاطعة",f_life:"حياة النادي",al_back:"العودة إلى الموقع",nav_agenda:"البرنامج",next_prog:"اطّلع على البرنامج الكامل ←",ag_eye:"البرنامج",ag_h:"برنامج الأشهر القادمة",ag_p:"كل شهر، دورة من ثلاثة لقاءات حول موضوع واحد للتقدّم خطوة بخطوة. الضيوف مرحّب بهم في كل لقاء.",
+fm_h:"احجز مقعدك كضيف",fm_p:"املأ هذه الاستمارة وسيتواصل معك أحد أعضاء المكتب لتأكيد حضورك.",fm_name:"الاسم الكامل",fm_email:"البريد الإلكتروني",fm_phone:"الهاتف / واتساب",fm_session:"اللقاء المرغوب",fm_choose:"اختر موعداً",fm_lang:"اللغة المفضّلة",fm_any:"لا يهم",fm_src:"كيف تعرّفت علينا؟",fm_s1:"صديق / عضو",fm_s2:"بحث على غوغل",fm_s3:"أخرى",fm_msg:"هدفك أو سؤالك (اختياري)",fm_msg_ph:"مثال: أريد أن أكون أكثر ارتياحاً في عروضي المهنية",fm_consent:"أوافق على أن يتواصل معي النادي عبر البريد الإلكتروني أو الهاتف أو واتساب بخصوص زيارتي.",fm_send:"إرسال طلبي",fm_err:"عذراً، فشل الإرسال. أعد المحاولة أو راسلنا على واتساب.",fm_ok_h:"شكراً، تم تسجيلك!",fm_ok_p:"وصل طلبك بنجاح. سنتواصل معك قريباً جداً للتأكيد. نراك يوم السبت!"});
 // capture French from the DOM
 T.fr={};
 document.querySelectorAll('[data-i18n]').forEach(e=>T.fr[e.dataset.i18n]=e.textContent);
 document.querySelectorAll('[data-i18n-html]').forEach(e=>T.fr[e.dataset.i18nHtml]=e.innerHTML);
+document.querySelectorAll('[data-i18n-ph]').forEach(e=>T.fr[e.dataset.i18nPh]=e.placeholder);
 T.fr.legal=document.querySelector('[data-i18n=legal]').innerHTML;
 function setLang(l){
   const d=T[l];
   document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';
   document.querySelectorAll('[data-i18n]').forEach(e=>{const k=e.dataset.i18n;if(d[k]!=null){k==='legal'?e.innerHTML=d[k]:e.textContent=d[k]}});
   document.querySelectorAll('[data-i18n-html]').forEach(e=>{const k=e.dataset.i18nHtml;if(d[k]!=null)e.innerHTML=d[k]});
+  document.querySelectorAll('[data-i18n-ph]').forEach(e=>{const k=e.dataset.i18nPh;if(d[k]!=null)e.placeholder=d[k]});
   document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('on',b.dataset.l===l));
   const y=document.getElementById('yr');if(y)y.textContent=new Date().getFullYear();
   try{localStorage.setItem('rtc-lang',l)}catch(e){}
