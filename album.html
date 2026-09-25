@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Album photo – Rabat Toastmasters Club</title>
+<meta name="description" content="Rabat Toastmasters Club — club de prise de parole en public et de leadership affilié à Toastmasters International, District 107. Réunions le samedi à Rabat.">
+<meta property="og:title" content="Rabat Toastmasters Club">
+<meta property="og:description" content="Prise de parole en public et leadership à Rabat depuis 2018. Venez en invité, c'est gratuit.">
+<meta property="og:image" content="img/officers-2026-2027.jpg">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:wght@400;600&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="Rabat Toastmasters Club">
+      <img class="logo" src="img/logo-sm.png" alt="Logo Rabat Toastmasters Club">
+      <span><b>Rabat Toastmasters</b><small>CLUB 05894368 · D107</small></span>
+    </a>
+    <ul class="links" id="links">
+      <li><a href="index.html#club" data-i18n="nav_club">Le club</a></li>
+      <li><a href="index.html#ti" data-i18n="nav_ti">Toastmasters International</a></li>
+      <li><a href="index.html#reunions" data-i18n="nav_meet">Réunions</a></li>
+      <li><a href="index.html#bureau" data-i18n="nav_off">Bureau</a></li>
+      <li><a href="album.html" style="color:var(--yellow);opacity:1" data-i18n="nav_album">Album photo</a></li>
+      <li><a href="index.html#rejoindre" data-i18n="nav_join">Rejoindre</a></li>
+    </ul>
+    <div class="right">
+      <div class="lang" role="group" aria-label="Langue">
+        <button data-l="fr" class="on">FR</button><button data-l="en">EN</button><button data-l="ar">ع</button>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+<section class="album-hero">
+  <div class="wrap">
+    <div class="eyebrow" style="color:var(--yellow)" data-i18n="al_eye">Album photo</div>
+    <h1 data-i18n="al_h">Les souvenirs du club</h1>
+    <p data-i18n="al_p">Réunions, concours, célébrations et événements du district : parcourez les photos du club. Cliquez sur une image pour l'agrandir.</p>
+    <p style="margin-top:22px"><a class="btn btn-ghost" href="index.html" data-i18n="al_back">Retour au site</a></p>
+  </div>
+</section>
+<section style="padding-top:10px">
+  <div class="wrap">
+    <div class="filters" id="filters">
+      <button data-f="all" class="on"><b data-i18n="f_all">Tout</b><span></span></button>
+      <button data-f="contest"><b data-i18n="f_contest">Concours</b><span></span></button>
+      <button data-f="meet"><b data-i18n="f_meet">Réunions & prix</b><span></span></button>
+      <button data-f="party"><b data-i18n="f_party">Célébrations</b><span></span></button>
+      <button data-f="district"><b data-i18n="f_district">District</b><span></span></button>
+      <button data-f="life"><b data-i18n="f_life">Vie du club</b><span></span></button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+<div class="lb" id="lb" role="dialog" aria-modal="true">
+  <button class="x" aria-label="Fermer">✕</button><button class="pv" aria-label="Précédent">‹</button><button class="nx" aria-label="Suivant">›</button>
+  <div id="lbm"></div><div class="lcap" id="lbc"></div><div class="lcount" id="lbn"></div>
+</div>
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <div class="brand" style="margin-bottom:12px"><img class="logo" src="img/logo-sm.png" alt="Logo Rabat Toastmasters Club"><span><b>Rabat Toastmasters Club</b><small>Club 05894368 · District 107 · Area E03</small></span></div>
+        <p data-i18n="ft_p">Club de prise de parole en public et de leadership affilié à Toastmasters International, fondé le 19 août 2018.</p>
+      </div>
+      <div><h4 data-i18n="ft_nav">Navigation</h4><ul>
+        <li><a href="index.html#club" data-i18n="nav_club">Le club</a></li><li><a href="index.html#ti" data-i18n="nav_ti">Toastmasters International</a></li><li><a href="index.html#reunions" data-i18n="nav_meet">Réunions</a></li><li><a href="index.html#bureau" data-i18n="nav_off">Bureau</a></li><li><a href="index.html#rejoindre" data-i18n="nav_join">Rejoindre</a></li></ul></div>
+      <div><h4 data-i18n="ft_links">Liens utiles</h4><ul>
+        <li><a href="https://www.toastmasters.org/" target="_blank" rel="noopener">toastmasters.org</a></li>
+        <li><a href="https://www.tmdistrict107.org/" target="_blank" rel="noopener">District 107</a></li>
+        <li><a href="https://www.instagram.com/rabat_toastmasters_club/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.facebook.com/rabattoastmastersclub" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="tel:+212772182258" dir="ltr">+212 772 182 258</a></li></ul></div>
+    </div>
+    <p class="legal" data-i18n="legal">Les noms, logos et marques de Toastmasters International sont la propriété de Toastmasters International et sont utilisés avec autorisation. Les informations de ce site sont destinées aux activités du club uniquement. © <span id="yr"></span> Rabat Toastmasters Club.</p>
+  </div>
+</footer>
+<script src="js/album-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+(function(){
+const A=window.RTC_ALBUM,grid=document.getElementById('grid'),lb=document.getElementById('lb');
+let f=(location.hash||'#all').slice(1),list=[],cur=0;
+const L=()=>window.RTC_LANG||'fr';
+function counts(){document.querySelectorAll('#filters button').forEach(b=>{const k=b.dataset.f;b.querySelector('span').textContent=k==='all'?A.length:A.filter(x=>x.cat===k).length;b.classList.toggle('on',k===f)})}
+function render(){
+  list=A.filter(x=>f==='all'||x.cat===f);
+  grid.innerHTML=list.map((x,i)=>`<button class="tile" data-i="${i}"><img src="img/album/thumbs/${x.src}.jpg" alt="${x[L()].replace(/"/g,'&quot;')}" loading="lazy">${x.video?'<span class="play"><svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>':''}<span class="cap">${x[L()]}</span></button>`).join('');
+  grid.querySelectorAll('.tile').forEach(t=>t.onclick=()=>open(+t.dataset.i));counts();
+}
+function show(){const x=list[cur];document.getElementById('lbm').innerHTML=x.video?`<video src="img/album/video.mp4" controls autoplay playsinline></video>`:`<img src="img/album/${x.src}.jpg" alt="">`;document.getElementById('lbc').textContent=x[L()];document.getElementById('lbn').textContent=(cur+1)+' / '+list.length}
+function open(i){cur=i;show();lb.classList.add('open');document.body.style.overflow='hidden'}
+function close(){lb.classList.remove('open');document.getElementById('lbm').innerHTML='';document.body.style.overflow=''}
+function step(d){cur=(cur+d+list.length)%list.length;show()}
+lb.querySelector('.x').onclick=close;lb.querySelector('.pv').onclick=()=>step(document.dir==='rtl'?1:-1);lb.querySelector('.nx').onclick=()=>step(document.dir==='rtl'?-1:1);
+lb.onclick=e=>{if(e.target===lb)close()};
+document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')close();if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1)});
+let sx=0;lb.addEventListener('touchstart',e=>sx=e.touches[0].clientX,{passive:true});lb.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)step(d<0?1:-1)});
+document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{f=b.dataset.f;history.replaceState(null,'','#'+f);render()});
+document.addEventListener('langchange',render);
+if(!A.some(x=>x.cat===f))f='all';render();
+})();
+</script>
+</body>
+</html>
