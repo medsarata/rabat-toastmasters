@@ -2,7 +2,7 @@ const T={
 en:{nav_club:"The club",nav_ti:"Toastmasters International",nav_meet:"Meetings",nav_off:"Officers",nav_mom:"Highlights",nav_join:"Join",
 hero_eye:"Toastmasters International · District 107",hero_h:"Speak up.<br><em>Lead with confidence.</em>",
 hero_p:"Since 2018, Rabat Toastmasters Club has helped people speak in public with confidence, listen, evaluate and lead — in a supportive atmosphere, one Saturday at a time.",
-cta_guest:"Visit as a guest — free",cta_meet:"See our meetings",next_t:"Our meetings",next_day:"Saturdays, 2:30 PM",next_sub:"3:30 PM depending on season · 12:00 PM during Ramadan",
+cta_guest:"Visit as a guest — free",cta_meet:"See our meetings",next_t:"Our meetings",next_day:"Saturdays, 3:30 PM",next_sub:"12:00 PM during Ramadan",
 next_loc:"Iklyle Cultural Centre, Av. Allal Al Fassi, Yacoub El Mansour, Rabat",next_free:"First visit is free, no pressure to speak",next_lang:"Open to all, no membership restriction",
 st1:"Charter year",st2:"Officers on the 2026-2027 board",st3:"Instagram followers",st4:"Spain · Portugal · Morocco…",
 club_eye:"Who we are",club_h:"A club where you learn by doing",club_p1:"Rabat Toastmasters Club offers a structured, friendly and supportive environment to develop communication and leadership skills. Our meetings are high-energy, fast-paced and entertaining.",
@@ -25,7 +25,7 @@ a3h:"Prepared speeches",a3p:"Members deliver a 5–7 minute Pathways project.",a
 a6h:"Reports & closing",a6p:"Timer, Grammarian and Ah-Counter reports, then voting and awards.",r_h:"Meeting roles",
 r1h:"Toastmaster of the Day",r1p:"Hosts and links the meeting.",r2h:"Speaker",r2p:"Delivers a prepared speech.",r3h:"Evaluator",r3p:"Gives feedback on a speech.",r4h:"Table Topics Master",r4p:"Sets the impromptu topics.",
 r5h:"General Evaluator",r5p:"Evaluates the meeting as a whole.",r6h:"Timer",r6p:"Keeps speakers on time.",r7h:"Grammarian",r7p:"Tracks the word of the day and good phrasing.",r8h:"Ah-Counter",r8p:"Notes the “ums”, “so”s and fillers.",
-w1:"When",w1v:"Saturdays at 2:30 PM (or 3:30 PM depending on season) · 12:00 PM during Ramadan",w2:"Where",w2v:"Iklyle Cultural Centre – Dar Chabab El Kheir, Av. Allal Al Fassi, Yacoub El Mansour, Rabat 10100",w3:"Contact",w_btn:"Directions",
+w1:"When",w1v:"Saturdays at 3:30 PM · 12:00 PM during Ramadan",w2:"Where",w2v:"Iklyle Cultural Centre – Dar Chabab El Kheir, Av. Allal Al Fassi, Yacoub El Mansour, Rabat 10100",w3:"Contact",w_btn:"Directions",
 o_eye:"Board 2026 – 2027",o_h:"The team behind the club",o_p:"Elected by members for one year, officers run the meetings, support everyone's progress and represent the club within District 107.",
 role_pres:"President",pres_q:"Welcome to Rabat Toastmasters Club: here every voice counts and every step forward is celebrated.",role_vpe:"VP Education",role_vpm:"VP Membership",role_vppr:"VP Public Relations",role_tr:"Treasurer",role_sec:"Secretary",role_saa:"Sergeant at Arms",ipp_name:"Past President",role_ipp:"Immediate Past President",
 mo_eye:"Highlights",mo_h:"Club life",e1h:"Host of an Area contest",e1p:"The club hosted an Area contest in Rabat, including its first-ever Table Topics contest.",
@@ -44,7 +44,7 @@ legal:"The names, logos and trademarks of Toastmasters International are the pro
 ar:{nav_club:"النادي",nav_ti:"توستماسترز الدولية",nav_meet:"اللقاءات",nav_off:"المكتب",nav_mom:"أبرز اللحظات",nav_join:"انضم إلينا",
 hero_eye:"توستماسترز الدولية · المقاطعة 107",hero_h:"تحدّث بثقة.<br><em>وكن قائداً.</em>",
 hero_p:"منذ 2018، يساعد نادي توستماسترز الرباط كل شخص على التحدث أمام الجمهور بثقة، وعلى الإصغاء والتقييم والقيادة — في جو ودّي وداعم، سبتاً بعد سبت.",
-cta_guest:"احضر كضيف — مجاناً",cta_meet:"اكتشف لقاءاتنا",next_t:"لقاءاتنا",next_day:"كل سبت، 14:30",next_sub:"15:30 حسب الموسم · 12:00 خلال رمضان",
+cta_guest:"احضر كضيف — مجاناً",cta_meet:"اكتشف لقاءاتنا",next_t:"لقاءاتنا",next_day:"كل سبت، 15:30",next_sub:"12:00 خلال رمضان",
 next_loc:"المركز الثقافي إكليل، شارع علال الفاسي، يعقوب المنصور، الرباط",next_free:"الزيارة الأولى مجانية ودون إلزام بالكلام",next_lang:"مفتوح للجميع دون أي قيود على العضوية",
 st1:"سنة الاعتماد",st2:"أعضاء مكتب 2026-2027",st3:"متابع على إنستغرام",st4:"إسبانيا · البرتغال · المغرب…",
 club_eye:"من نحن",club_h:"نادٍ نتعلّم فيه بالممارسة",club_p1:"يوفّر نادي توستماسترز الرباط إطاراً منظّماً وودّياً وداعماً لتطوير مهارات التواصل والقيادة. لقاءاتنا حيوية وسريعة الإيقاع وممتعة.",
@@ -67,7 +67,7 @@ a3h:"الخطب المُعدّة",a3p:"يلقي الأعضاء مشروعاً م
 a6h:"التقارير والاختتام",a6p:"تقارير الميقاتي والنحوي وعدّاد الحشو، ثم التصويت وتوزيع الجوائز.",r_h:"أدوار اللقاء",
 r1h:"مُسيّر اللقاء",r1p:"يدير اللقاء ويربط فقراته.",r2h:"الخطيب",r2p:"يلقي خطاباً مُعدّاً.",r3h:"المُقيّم",r3p:"يقدّم ملاحظات على خطاب.",r4h:"مسؤول تيبل توبيكس",r4p:"يقترح مواضيع الارتجال.",
 r5h:"المُقيّم العام",r5p:"يقيّم اللقاء ككل.",r6h:"الميقاتي",r6p:"يحرص على احترام الوقت.",r7h:"النحوي",r7p:"يتابع كلمة اليوم والتعابير الجميلة.",r8h:"عدّاد الحشو",r8p:"يرصد «أممم» و«يعني» وما شابه.",
-w1:"متى",w1v:"كل سبت على الساعة 14:30 (أو 15:30 حسب الموسم) · 12:00 خلال رمضان",w2:"أين",w2v:"المركز الثقافي إكليل – دار الشباب الخير، شارع علال الفاسي، يعقوب المنصور، الرباط 10100",w3:"للتواصل",w_btn:"الاتجاهات",
+w1:"متى",w1v:"كل سبت على الساعة 15:30 · 12:00 خلال رمضان",w2:"أين",w2v:"المركز الثقافي إكليل – دار الشباب الخير، شارع علال الفاسي، يعقوب المنصور، الرباط 10100",w3:"للتواصل",w_btn:"الاتجاهات",
 o_eye:"مكتب 2026 – 2027",o_h:"الفريق الذي يُحيي النادي",o_p:"يُنتخب أعضاء المكتب من طرف الأعضاء لمدة سنة، فينظّمون اللقاءات ويواكبون تقدّم الجميع ويمثّلون النادي داخل المقاطعة 107.",
 role_pres:"الرئيس",pres_q:"مرحباً بكم في نادي توستماسترز الرباط: هنا لكل صوت قيمة، ولكل تقدّم احتفاء.",role_vpe:"نائب الرئيس للتعليم",role_vpm:"نائبة الرئيس للعضوية",role_vppr:"نائب الرئيس للعلاقات العامة",role_tr:"أمينة المال",role_sec:"الكاتب العام",role_saa:"رقيبة الجلسة",ipp_name:"الرئيس السابق",role_ipp:"الرئيس السابق المباشر",
 mo_eye:"أبرز اللحظات",mo_h:"حياة النادي",e1h:"مستضيف مسابقة المنطقة",e1p:"نظّم النادي في الرباط مسابقة على مستوى المنطقة، شملت لأول مرة مسابقة في تيبل توبيكس.",
@@ -97,7 +97,7 @@ tq_eye:"They say it best",tq:"Renewing my membership allows me to keep growing i
 al_more:"See the full album",
 q3:"What language are meetings held in?",a3:"Our meetings are held in three languages: French, English and Arabic. Each member can practise in the language of their choice, and the club takes part in District 107 contests.",
 al_eye:"Photo album",al_h:"Club memories",al_p:"Meetings, contests, celebrations and district events: browse the club's photos. Click a picture to enlarge it.",
-f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site"});
+f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site",nav_agenda:"Agenda",next_prog:"See the full programme →",ag_eye:"Agenda",ag_h:"Our programme for the coming months",ag_p:"Each month, a cycle of three meetings around one theme to grow step by step. Guests are welcome at every session."});
 Object.assign(T.ar,{
 next_lang:"لقاءات بالفرنسية والإنجليزية والعربية",st2:"لقاء منذ التأسيس",st3:"لغات اللقاءات",
 nav_album:"ألبوم الصور",t6p:"أكثر من 300 لقاء، ولقاءات دولية مشتركة، ومسابقات على مستوى المنطقة والمقاطعة، ومجتمع يضم أكثر من 1300 متابع.",
@@ -110,7 +110,7 @@ tq_eye:"بكلماتهم",tq:"تجديد عضويتي يتيح لي مواصلة
 al_more:"شاهد الألبوم كاملاً",
 q3:"بأي لغة تُعقد اللقاءات؟",a3:"تُعقد لقاءاتنا بثلاث لغات: الفرنسية والإنجليزية والعربية. يمكن لكل عضو أن يتدرّب باللغة التي يختارها، ويشارك النادي في مسابقات المقاطعة 107.",
 al_eye:"ألبوم الصور",al_h:"ذكريات النادي",al_p:"لقاءات ومسابقات واحتفالات وأنشطة المقاطعة: تصفّح صور النادي. انقر على صورة لتكبيرها.",
-f_all:"الكل",f_contest:"المسابقات",f_meet:"اللقاءات والجوائز",f_party:"الاحتفالات",f_district:"المقاطعة",f_life:"حياة النادي",al_back:"العودة إلى الموقع"});
+f_all:"الكل",f_contest:"المسابقات",f_meet:"اللقاءات والجوائز",f_party:"الاحتفالات",f_district:"المقاطعة",f_life:"حياة النادي",al_back:"العودة إلى الموقع",nav_agenda:"البرنامج",next_prog:"اطّلع على البرنامج الكامل ←",ag_eye:"البرنامج",ag_h:"برنامج الأشهر القادمة",ag_p:"كل شهر، دورة من ثلاثة لقاءات حول موضوع واحد للتقدّم خطوة بخطوة. الضيوف مرحّب بهم في كل لقاء."});
 // capture French from the DOM
 T.fr={};
 document.querySelectorAll('[data-i18n]').forEach(e=>T.fr[e.dataset.i18n]=e.textContent);

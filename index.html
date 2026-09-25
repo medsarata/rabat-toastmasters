@@ -23,6 +23,7 @@
       <span><b>Rabat Toastmasters</b><small>CLUB 05894368 · D107</small></span>
     </a>
     <ul class="links" id="links">
+      <li><a href="#agenda" data-i18n="nav_agenda">Agenda</a></li>
       <li><a href="#club" data-i18n="nav_club">Le club</a></li>
       <li><a href="#ti" data-i18n="nav_ti">Toastmasters International</a></li>
       <li><a href="#reunions" data-i18n="nav_meet">Réunions</a></li>
@@ -51,9 +52,10 @@
       </div>
     </div>
     <aside class="card-next">
-      <h3 data-i18n="next_t">Nos réunions</h3>
-      <div class="big" data-i18n="next_day">Le samedi, 14h30</div>
-      <div style="opacity:.8" data-i18n="next_sub">15h30 selon la saison · 12h00 pendant le Ramadan</div>
+      <h3 id="next-t" data-i18n="next_t">Nos réunions</h3>
+      <div class="big" id="next-big" data-i18n="next_day">Le samedi, 15h30</div>
+      <div style="opacity:.85" id="next-sub" data-i18n="next_sub">12h00 pendant le Ramadan</div>
+      <a href="#agenda" class="next-link" data-i18n="next_prog">Voir le programme complet →</a>
       <ul>
         <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2DF74" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span data-i18n="next_loc">Centre culturel Iklyle, Av. Allal Al Fassi, Yacoub El Mansour, Rabat</span></li>
         <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F2DF74" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg><span data-i18n="next_free">Première visite gratuite, sans obligation de parler</span></li>
@@ -66,6 +68,17 @@
     <div class="stat"><b>300+</b><span data-i18n="st2">Réunions tenues</span></div>
     <div class="stat"><b>3</b><span data-i18n="st3">Langues de réunion</span></div>
     <div class="stat"><b>D107</b><span data-i18n="st4">Espagne · Portugal · Maroc…</span></div>
+  </div>
+</section>
+
+<section id="agenda" class="agenda-sec">
+  <div class="wrap">
+    <div class="eyebrow" data-i18n="ag_eye">Agenda</div>
+    <h2 data-i18n="ag_h">Le programme des prochains mois</h2>
+    <p class="lead" data-i18n="ag_p">Chaque mois, un cycle de trois réunions autour d'un même thème pour progresser pas à pas. Les invités sont les bienvenus à chaque séance.</p>
+    <p class="ag-room"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 1 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span id="agenda-room"></span></p>
+    <div class="cycles" id="agenda-list"></div>
+    <p style="margin-top:28px"><a class="btn btn-primary" href="https://forms.gle/HSNkp62Zub6JzqaP8" target="_blank" rel="noopener" data-i18n="cta_guest">Venir en invité — gratuit</a></p>
   </div>
 </section>
 
@@ -153,7 +166,7 @@
     </div>
     <div class="where reveal">
       <div class="info">
-        <div><b data-i18n="w1">Quand</b><span data-i18n="w1v">Le samedi à 14h30 (ou 15h30 selon la saison) · 12h00 pendant le Ramadan</span></div>
+        <div><b data-i18n="w1">Quand</b><span data-i18n="w1v">Le samedi à 15h30 · 12h00 pendant le Ramadan</span></div>
         <div><b data-i18n="w2">Où</b><span data-i18n="w2v">Centre culturel Iklyle – Dar Chabab El Kheir, Av. Allal Al Fassi, Yacoub El Mansour, Rabat 10100</span></div>
         <div><b data-i18n="w3">Contact</b><a href="tel:+212772182258" dir="ltr">+212 772 182 258</a></div>
         <a class="btn btn-blue" href="https://www.google.com/maps/dir/?api=1&destination=34.01149,-6.83149" target="_blank" rel="noopener" data-i18n="w_btn">Itinéraire</a>
@@ -270,6 +283,8 @@
 </footer>
 
 <script src="js/album-data.js"></script>
+<script src="js/agenda-data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/agenda.js"></script>
 </body>
 </html>
