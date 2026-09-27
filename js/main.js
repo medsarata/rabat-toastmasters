@@ -86,7 +86,7 @@ legal:"أسماء وشعارات وعلامات توستماسترز الدول�
 };
 
 Object.assign(T.en,{
-nav_ti2:"Toastmasters",nav_res:"Resources",nav_pal:"Awards",nav_vid:"Videos",
+nav_ti2:"Toastmasters",nav_res:"Resources",nav_pres:"Our presidents",pr_eye:"Our story",pr_h:"Nine presidents, one shared passion",pr_p:"Since the charter in 2018, each president has left their mark on the club. Thank you to them, and to every officer and member who made Rabat Toastmasters Club what it is today.",pr_poster:"See the “9 years of leadership” poster",nav_pal:"Awards",nav_vid:"Videos",
 st4:"7 countries, including Morocco",c5p:"Our district brings together clubs in Algeria, Andorra, Gibraltar, Morocco, Portugal, Spain and Tunisia, with contests and training in several languages.",
 pa_eye:"Awards",pa_h:"Our speakers on the podium",pa_p:"Every year, club members fly the club's flag in official Toastmasters contests: from club to Area, then Division and all the way to District.",pa_season:"2025 – 2026 season",pa_l1:"Area",pa_l2:"Division",pa_l3:"District",
 pa1d:"7 March 2026 · Rabat",pa1h:"Area E3 Contest",pa1a:"🥈 2nd prize – French Speech Contest",pa1b:"🏆 Podium – English Speech Contest",pa1c:"🏆 Podium – Evaluation Contest",
@@ -112,7 +112,7 @@ al_eye:"Photo album",al_h:"Club memories",al_p:"Meetings, contests, celebrations
 f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site",nav_agenda:"Agenda",next_prog:"See the full programme →",ag_eye:"Agenda",ag_h:"Our programme for the coming months",ag_p:"Each month, a cycle of three meetings around one theme to grow step by step. Guests are welcome at every session.",
 fm_h:"Book your guest seat",fm_p:"Fill in this form and a board member will get back to you to confirm your visit.",fm_name:"Full name",fm_email:"Email",fm_phone:"Phone / WhatsApp",fm_session:"Preferred meeting",fm_choose:"Choose a date",fm_lang:"Preferred language",fm_any:"No preference",fm_src:"How did you hear about us?",fm_s1:"A friend / a member",fm_s2:"Google search",fm_s3:"Other",fm_msg:"Your goal or a question (optional)",fm_msg_ph:"E.g. feel more at ease presenting at work",fm_consent:"I agree that the club may contact me by email, phone or WhatsApp about my visit.",fm_send:"Send my registration",fm_err:"Oops, sending failed. Please try again or message us on WhatsApp.",fm_ok_h:"Thank you, you're registered!",fm_ok_p:"Your request has arrived. We'll get back to you very soon to confirm. See you on Saturday!"});
 Object.assign(T.ar,{
-nav_ti2:"توستماسترز",nav_res:"الموارد",nav_pal:"الإنجازات",nav_vid:"الفيديوهات",
+nav_ti2:"توستماسترز",nav_res:"الموارد",nav_pres:"رؤساؤنا",pr_eye:"قصتنا",pr_h:"تسعة رؤساء، شغف واحد",pr_p:"منذ الاعتماد سنة 2018، ترك كل رئيس بصمته على النادي. شكراً لهم ولكل أعضاء المكتب والأعضاء الذين جعلوا نادي توستماسترز الرباط ما هو عليه اليوم.",pr_poster:"شاهد ملصق «9 سنوات من القيادة»",nav_pal:"الإنجازات",nav_vid:"الفيديوهات",
 st4:"7 دول من بينها المغرب",c5p:"تضم مقاطعتنا أندية الجزائر وأندورا وجبل طارق والمغرب والبرتغال وإسبانيا وتونس، مع مسابقات وتكوينات بعدة لغات.",
 pa_eye:"الإنجازات",pa_h:"خطباؤنا على منصة التتويج",pa_p:"كل سنة يمثّل أعضاء النادي ألوانه في المسابقات الرسمية لتوستماسترز: من النادي إلى المنطقة ثم القسم وصولاً إلى المقاطعة.",pa_season:"موسم 2025 – 2026",pa_l1:"المنطقة",pa_l2:"القسم",pa_l3:"المقاطعة",
 pa1d:"7 مارس 2026 · الرباط",pa1h:"مسابقة المنطقة E3",pa1a:"🥈 الجائزة الثانية – الخطابة بالفرنسية",pa1b:"🏆 منصة التتويج – الخطابة بالإنجليزية",pa1c:"🏆 منصة التتويج – مسابقة التقييم",
