@@ -86,6 +86,18 @@ legal:"أسماء وشعارات وعلامات توستماسترز الدول�
 };
 
 Object.assign(T.en,{
+nav_ti2:"Toastmasters",nav_res:"Resources",nav_pal:"Awards",nav_vid:"Videos",
+st4:"7 countries, including Morocco",c5p:"Our district brings together clubs in Algeria, Andorra, Gibraltar, Morocco, Portugal, Spain and Tunisia, with contests and training in several languages.",
+pa_eye:"Awards",pa_h:"Our speakers on the podium",pa_p:"Every year, club members fly the club's flag in official Toastmasters contests: from club to Area, then Division and all the way to District.",pa_season:"2025 – 2026 season",pa_l1:"Area",pa_l2:"Division",pa_l3:"District",
+pa1d:"7 March 2026 · Rabat",pa1h:"Area E3 Contest",pa1a:"🥈 2nd prize – French Speech Contest",pa1b:"🏆 Podium – English Speech Contest",pa1c:"🏆 Podium – Evaluation Contest",
+pa2d:"11 April 2026 · Seville, Spain",pa2h:"Division E Contest",pa2a:"🥇 1st place – French Speech Contest",
+pa3d:"15–16 May 2026 · Málaga, Spain",pa3h:"District 107 Conference “Amplify Your Impact”",pa3a:"🥉 3rd place – French Speech Contest, among the best speakers from 7 countries",
+vi_eye:"Videos",vi_h:"Listen to our speakers",vi_p:"Nothing beats a real meeting to understand Toastmasters. Until you visit, watch a few speeches.",
+v1h:"Discover a Toastmasters meeting",v1p:"Official Toastmasters International video · English",v2h:"Area contest speech",v2p:"Area E3 Contest 2026 · English",v3h:"The art of negotiation",v3p:"Speech at a club meeting",vi_more:"More videos on our YouTube channel",
+te_eye:"Testimonials",te_h:"What the club changed for them",te_p:"Students, managers, entrepreneurs: our members share what Toastmasters brings them.",
+rs_eye:"Resources",rs_h:"Go further",rs_p:"Downloadable documents and useful links to discover Toastmasters, prepare your first visit or grow as a member.",rs_docs:"Downloads",rs_links:"Useful links",
+d1h:"100 reasons to join Toastmasters",d1p:"Everything membership can bring you, at a glance (in French).",d2h:"All About Toastmasters",d2p:"The official brochure: how clubs work, Pathways and testimonials.",d3h:"Find Your Voice",d3p:"Why and how to find your voice with Toastmasters.",d4h:"Features, benefits and value",d4p:"What Toastmasters brings to individuals and employers — ideal to convince your company.",
+k1h:"The Pathways programme",k1p:"Learning paths and member access",k2h:"Meeting roles",k2p:"Official descriptions of each role",k3h:"Toastmaster Magazine",k3p:"Tips, articles and inspiration",k4h:"District 107",k4p:"District events, contests and training",k5h:"Official club listing",k5p:"Our page on toastmasters.org",k6p:"The Toastmasters International website",
 next_lang:"Meetings in French, English and Arabic",st2:"Meetings held",st3:"Meeting languages",
 nav_album:"Photo album",t6p:"More than 300 meetings celebrated, international joint meetings, Area and District contests, and a community of more than 1,300 followers.",
 mo_p:"Contests, awards, celebrations and district conferences: a look back at a few moments that shaped the club.",
@@ -100,6 +112,18 @@ al_eye:"Photo album",al_h:"Club memories",al_p:"Meetings, contests, celebrations
 f_all:"All",f_contest:"Contests",f_meet:"Meetings & awards",f_party:"Celebrations",f_district:"District",f_life:"Club life",al_back:"Back to the site",nav_agenda:"Agenda",next_prog:"See the full programme →",ag_eye:"Agenda",ag_h:"Our programme for the coming months",ag_p:"Each month, a cycle of three meetings around one theme to grow step by step. Guests are welcome at every session.",
 fm_h:"Book your guest seat",fm_p:"Fill in this form and a board member will get back to you to confirm your visit.",fm_name:"Full name",fm_email:"Email",fm_phone:"Phone / WhatsApp",fm_session:"Preferred meeting",fm_choose:"Choose a date",fm_lang:"Preferred language",fm_any:"No preference",fm_src:"How did you hear about us?",fm_s1:"A friend / a member",fm_s2:"Google search",fm_s3:"Other",fm_msg:"Your goal or a question (optional)",fm_msg_ph:"E.g. feel more at ease presenting at work",fm_consent:"I agree that the club may contact me by email, phone or WhatsApp about my visit.",fm_send:"Send my registration",fm_err:"Oops, sending failed. Please try again or message us on WhatsApp.",fm_ok_h:"Thank you, you're registered!",fm_ok_p:"Your request has arrived. We'll get back to you very soon to confirm. See you on Saturday!"});
 Object.assign(T.ar,{
+nav_ti2:"توستماسترز",nav_res:"الموارد",nav_pal:"الإنجازات",nav_vid:"الفيديوهات",
+st4:"7 دول من بينها المغرب",c5p:"تضم مقاطعتنا أندية الجزائر وأندورا وجبل طارق والمغرب والبرتغال وإسبانيا وتونس، مع مسابقات وتكوينات بعدة لغات.",
+pa_eye:"الإنجازات",pa_h:"خطباؤنا على منصة التتويج",pa_p:"كل سنة يمثّل أعضاء النادي ألوانه في المسابقات الرسمية لتوستماسترز: من النادي إلى المنطقة ثم القسم وصولاً إلى المقاطعة.",pa_season:"موسم 2025 – 2026",pa_l1:"المنطقة",pa_l2:"القسم",pa_l3:"المقاطعة",
+pa1d:"7 مارس 2026 · الرباط",pa1h:"مسابقة المنطقة E3",pa1a:"🥈 الجائزة الثانية – الخطابة بالفرنسية",pa1b:"🏆 منصة التتويج – الخطابة بالإنجليزية",pa1c:"🏆 منصة التتويج – مسابقة التقييم",
+pa2d:"11 أبريل 2026 · إشبيلية، إسبانيا",pa2h:"مسابقة القسم E",pa2a:"🥇 المركز الأول – مسابقة الخطابة بالفرنسية",
+pa3d:"15-16 ماي 2026 · مالقة، إسبانيا",pa3h:"مؤتمر المقاطعة 107 «Amplify Your Impact»",pa3a:"🥉 المركز الثالث – مسابقة الخطابة بالفرنسية، ضمن أفضل خطباء 7 دول",
+vi_eye:"فيديوهات",vi_h:"استمع إلى خطبائنا",vi_p:"لا شيء يعوّض لقاءً حقيقياً لفهم توستماسترز. في انتظار زيارتك، شاهد بعض الخطب.",
+v1h:"اكتشف لقاء توستماسترز",v1p:"فيديو رسمي من توستماسترز الدولية · بالإنجليزية",v2h:"خطاب في مسابقة المنطقة",v2p:"مسابقة المنطقة E3 لسنة 2026 · بالإنجليزية",v3h:"فن التفاوض",v3p:"خطاب في لقاء النادي",vi_more:"فيديوهات أخرى على قناتنا في يوتيوب",
+te_eye:"شهادات",te_h:"ما الذي غيّره النادي في حياتهم",te_p:"طلبة وأطر ورواد أعمال: يحكي أعضاؤنا ما يقدّمه لهم توستماسترز.",
+rs_eye:"الموارد",rs_h:"للتعمق أكثر",rs_p:"وثائق للتحميل وروابط مفيدة لاكتشاف توستماسترز والتحضير لزيارتك الأولى أو التقدّم كعضو.",rs_docs:"وثائق للتحميل",rs_links:"روابط مفيدة",
+d1h:"100 سبب للانضمام إلى توستماسترز",d1p:"كل ما يمكن أن تقدّمه لك العضوية في لمحة (بالفرنسية).",d2h:"كل شيء عن توستماسترز",d2p:"الكتيّب الرسمي: طريقة عمل الأندية وباثوايز وشهادات.",d3h:"اعثر على صوتك",d3p:"لماذا وكيف تجد صوتك مع توستماسترز.",d4h:"المزايا والفوائد والقيمة",d4p:"ما يقدّمه توستماسترز للفرد وللمؤسسة — مثالي لإقناع مشغّلك.",
+k1h:"برنامج باثوايز",k1p:"مسارات التعلّم وولوج الأعضاء",k2h:"أدوار اللقاء",k2p:"الأوصاف الرسمية لكل دور",k3h:"مجلة توستماستر",k3p:"نصائح ومقالات وإلهام",k4h:"المقاطعة 107",k4p:"أنشطة ومسابقات وتكوينات المقاطعة",k5h:"الصفحة الرسمية للنادي",k5p:"صفحتنا على toastmasters.org",k6p:"موقع توستماسترز الدولية",
 next_lang:"لقاءات بالفرنسية والإنجليزية والعربية",st2:"لقاء منذ التأسيس",st3:"لغات اللقاءات",
 nav_album:"ألبوم الصور",t6p:"أكثر من 300 لقاء، ولقاءات دولية مشتركة، ومسابقات على مستوى المنطقة والمقاطعة، ومجتمع يضم أكثر من 1300 متابع.",
 mo_p:"مسابقات وجوائز واحتفالات ومؤتمرات المقاطعة: عودة إلى لحظات صنعت تاريخ النادي.",
