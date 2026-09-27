@@ -5,9 +5,9 @@ window.RTC_PRESIDENTS = [
   { annee: "2019-2020", nom: "Mohamed Amine Bajjii", photo: "" },
   { annee: "2020-2021", nom: "Hanane Bourehiyi", photo: "img/presidents/hanane-bourehiyi.jpg", note: { fr: "Membre fondatrice · DTM", en: "Charter member · DTM", ar: "عضوة مؤسسة · DTM" } },
   { annee: "2021-2022", nom: "Rania Derouiche", photo: "" },
-  { annee: "2022-2023", nom: "Amal Errais", photo: "" },
+  { annee: "2022-2023", nom: "Amal Errais", photo: "img/presidents/amal-errais.jpg" },
   { annee: "2023-2024", nom: "Najat Lebzar", photo: "img/presidents/najat-lebzar.jpg" },
-  { annee: "2024-2025", nom: "Meriem Mentagui", photo: "" },
+  { annee: "2024-2025", nom: "Meriem Mentagui", photo: "img/presidents/meriem-mentagui.jpg" },
   { annee: "2025-2026", nom: "Ali El Manja", photo: "img/presidents/ali-el-manja.jpg" },
   { annee: "2026-2027", nom: "Mohammed Rachid Tazi", photo: "img/presidents/mohammed-rachid-tazi.jpg", actuel: true }
 ];
