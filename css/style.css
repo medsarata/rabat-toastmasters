@@ -371,3 +371,8 @@ html[lang=ar] .tag{font-size:.78rem}
 .pres-foot a{color:var(--yellow);font-weight:700;text-decoration:none}
 .pres-foot a:hover{text-decoration:underline}
 @media(max-width:1100px){.pres-track{grid-template-columns:repeat(9,130px)}}
+
+.vg-top{grid-template-columns:repeat(3,minmax(0,1fr))}
+.vg-tall{grid-template-columns:repeat(4,minmax(0,1fr));margin-top:22px}
+.vid-h video,.vid-h iframe,.vid-h .yt{aspect-ratio:16/9;object-fit:cover}
+@media(max-width:900px){.vg-top{grid-template-columns:minmax(0,1fr)}.vg-tall{grid-template-columns:repeat(2,minmax(0,1fr))}}

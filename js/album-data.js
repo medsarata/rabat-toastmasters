@@ -41,5 +41,20 @@ window.RTC_ALBUM = [
   {"src": "p08", "cat": "life", "fr": "Sortie nature entre membres", "en": "Members' outdoor day", "ar": "خرجة في الطبيعة"},
   {"src": "p23", "cat": "life", "fr": "La vie du club", "en": "Club life", "ar": "حياة النادي"},
   {"src": "p35", "cat": "life", "fr": "La vie du club", "en": "Club life", "ar": "حياة النادي"},
-  {"src": "p37", "cat": "life", "fr": "La vie du club", "en": "Club life", "ar": "حياة النادي"}
+  {"src": "p37", "cat": "life", "fr": "La vie du club", "en": "Club life", "ar": "حياة النادي"},
+  {"src": "p40", "cat": "contest", "fr": "Résultats et remise des prix", "en": "Results & awards", "ar": "النتائج وتوزيع الجوائز"},
+  {"src": "p41", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p42", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p43", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p44", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p45", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p46", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p47", "cat": "contest", "fr": "Remise des certificats", "en": "Certificate ceremony", "ar": "تسليم الشهادات"},
+  {"src": "p48", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p49", "cat": "meet", "fr": "Un discours en réunion", "en": "A speech at a meeting", "ar": "خطاب في لقاء"},
+  {"src": "p50", "cat": "meet", "fr": "Sur scène au Centre Iklyl", "en": "On stage at the Iklyl Centre", "ar": "على المنصة بمركز إكليل"},
+  {"src": "p51", "cat": "meet", "fr": "Prix de la réunion", "en": "Meeting awards", "ar": "جوائز اللقاء"},
+  {"src": "p52", "cat": "meet", "fr": "Sur scène au Centre Iklyl", "en": "On stage at the Iklyl Centre", "ar": "على المنصة بمركز إكليل"},
+  {"src": "p53", "cat": "contest", "fr": "Remise des certificats", "en": "Certificate ceremony", "ar": "تسليم الشهادات"},
+  {"src": "p54", "cat": "contest", "fr": "Les lauréats du concours", "en": "Contest winners", "ar": "الفائزون في المسابقة"}
 ];
