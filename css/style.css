@@ -403,3 +403,6 @@ html[lang=ar] .tag{font-size:.78rem}
 .fb-fab:hover{background:#8d2b3c;transform:translateY(-2px)}
 @media(max-width:520px){.fb-fab span{display:none}.fb-fab{padding:14px}}
 @media(prefers-reduced-motion:reduce){.fb-thumb .thumb,.fb-stars svg,.fb-btn,.fb-fab,.fb-fab .thumb{animation:none}.fb-stars svg{color:var(--maroon)}}
+
+.btn-avis .thumb{width:22px;height:22px;animation:thumbUp 2.2s ease-in-out infinite;transform-origin:30% 80%}
+@media(prefers-reduced-motion:reduce){.btn-avis .thumb{animation:none}}
