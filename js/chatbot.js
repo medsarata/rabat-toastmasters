@@ -6,6 +6,7 @@
   var HOME = document.getElementById('agenda') ? '' : 'index.html';
   var WA = 'https://wa.me/212772182258';
   var TEL = '+212 772 182 258';
+  var MAIL = 'clubrabattoastmasters@gmail.com';
   var MAP = 'https://www.google.com/maps/dir/?api=1&destination=34.01149,-6.83149';
   var AVIS = 'https://forms.gle/4KZZpSZ37iUzudji7';
   var TMI = 'https://www.toastmasters.org';
@@ -161,10 +162,10 @@
         + acts(act(HOME+'#toastmasters',lbl(l,'En savoir plus','Learn more','اعرف المزيد'))); }},
     {id:'contact', k:['contact','contacter','telephone','whatsapp','appeler','numero','joindre','email','mail','ecrire','phone','call','number','reach','هاتف','واتساب','اتصال','رقم','تواصل','اتصل'],
      a:function(l){ return lbl(l,
-        'Vous pouvez joindre le club par <b>WhatsApp ou téléphone au '+TEL+'</b>, ou via nos réseaux sociaux.',
-        'You can reach the club by <b>WhatsApp or phone at '+TEL+'</b>, or through our social media.',
-        'يمكنك التواصل مع النادي عبر <b>واتساب أو الهاتف على الرقم <span dir="ltr">'+TEL+'</span></b>، أو عبر شبكاتنا الاجتماعية.')
-        + acts(btnWa(l), act('https://www.instagram.com/rabat_toastmasters_club/','Instagram',true), act('https://www.facebook.com/rabattoastmastersclub','Facebook',true)); }},
+        'Vous pouvez joindre le club par <b>WhatsApp ou téléphone au '+TEL+'</b>, par e-mail à <b>'+MAIL+'</b>, ou via nos réseaux sociaux.',
+        'You can reach the club by <b>WhatsApp or phone at '+TEL+'</b>, by email at <b>'+MAIL+'</b>, or through our social media.',
+        'يمكنك التواصل مع النادي عبر <b>واتساب أو الهاتف على الرقم <span dir="ltr">'+TEL+'</span></b>، أو بالبريد الإلكتروني <b dir="ltr">'+MAIL+'</b>، أو عبر شبكاتنا الاجتماعية.')
+        + acts(btnWa(l), act('mailto:'+MAIL, lbl(l,'E-mail','Email','البريد الإلكتروني')), act('https://www.instagram.com/rabat_toastmasters_club/','Instagram',true), act('https://www.facebook.com/rabattoastmastersclub','Facebook',true)); }},
     {id:'bureau', k:['bureau','president','presidente','officier','equipe','responsable','=vp','tresorier','tresoriere','secretaire','qui dirige','board','officers','team','who runs','المكتب','الرئيس','رئيس','فريق','مسؤول'],
      a:function(l){ return lbl(l,
         'Le bureau 2026-2027 : <b>Mohammed Rachid Tazi</b> (Président), Mohamed Diallo (VP Éducation), Afaf Boulanouar (VP Adhésions), Mamady Bangoura (VP Relations publiques), Zaineb Bouali (Trésorière), Amal Elalami (Secrétaire), Oumaima Hajri (Sergent d\'armes) et Ali El Manja (Président sortant).',

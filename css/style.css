@@ -428,3 +428,4 @@ html[dir=rtl] .vid-arrow svg{transform:scaleX(-1)}
   .vid-row .vid-tall video,.vid-row .vid-tall iframe,.vid-row .vid-tall .yt{height:auto;aspect-ratio:9/16}
 }
 .vid-tall .play-lg{width:56px;height:56px}
+.where .info a.mail{display:block;margin-top:4px;word-break:break-all}
