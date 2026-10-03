@@ -6,6 +6,13 @@ document.querySelectorAll('.yt').forEach(b=>b.addEventListener('click',()=>{
   b.replaceWith(f)}));
 // une seule vidéo à la fois
 document.querySelectorAll('.vid video').forEach(v=>v.addEventListener('play',()=>document.querySelectorAll('.vid video').forEach(o=>{if(o!==v)o.pause()})));
+// vidéos : défilement horizontal avec flèches
+const row=document.getElementById('vid-row');
+if(row){const ar=[...document.querySelectorAll('.vid-arrow')],AL={fr:['Précédent','Suivant'],en:['Previous','Next'],ar:['السابق','التالي']};
+  const upd=()=>{const max=row.scrollWidth-row.clientWidth-2,x=Math.abs(row.scrollLeft);ar.forEach(b=>{b.disabled=+b.dataset.dir<0?x<=2:x>=max})};
+  ar.forEach(b=>b.addEventListener('click',()=>row.scrollBy({left:(+b.dataset.dir)*(document.documentElement.dir==='rtl'?-1:1)*Math.max(280,row.clientWidth*.8),behavior:'smooth'})));
+  row.addEventListener('scroll',upd,{passive:true});window.addEventListener('resize',upd);
+  document.addEventListener('langchange',e=>{const l=AL[e.detail]||AL.fr;ar.forEach((b,i)=>b.setAttribute('aria-label',l[i]));row.scrollLeft=0;upd()});upd()}
 // témoignages
 const g=document.getElementById('te-grid'),D=window.RTC_TEMOIGNAGES||[];
 const U={fr:{h:"Vous êtes membre ?",p:"Partagez votre expérience : votre témoignage apparaîtra ici.",b:"Envoyer mon témoignage"},
