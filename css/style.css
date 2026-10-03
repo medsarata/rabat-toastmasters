@@ -316,7 +316,7 @@ html[lang=ar] .tag{font-size:.78rem}
 .vid{margin:0}
 .vid video,.vid iframe,.yt{width:100%;border-radius:14px;background:#000;display:block;border:0}
 .vid-wide iframe,.vid-wide .yt{aspect-ratio:16/9}
-.vid-tall video{aspect-ratio:9/16;object-fit:cover}
+.vid-tall video,.vid-tall .yt,.vid-tall iframe{aspect-ratio:9/16;object-fit:cover}
 .yt{position:relative;padding:0;cursor:pointer;overflow:hidden}
 .yt img{width:100%;height:100%;object-fit:cover;opacity:.85;transition:opacity .2s}
 .yt:hover img{opacity:1}
@@ -425,5 +425,6 @@ html[dir=rtl] .vid-arrow svg{transform:scaleX(-1)}
 @media(max-width:600px){
   .vid-row .vid-h{width:84vw}.vid-row .vid-tall{width:46vw}
   .vid-row .vid-h video,.vid-row .vid-h iframe,.vid-row .vid-h .yt{height:auto;aspect-ratio:16/9}
-  .vid-row .vid-tall video{height:auto;aspect-ratio:9/16}
+  .vid-row .vid-tall video,.vid-row .vid-tall iframe,.vid-row .vid-tall .yt{height:auto;aspect-ratio:9/16}
 }
+.vid-tall .play-lg{width:56px;height:56px}

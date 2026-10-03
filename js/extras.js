@@ -1,11 +1,11 @@
 (function(){
 // YouTube : chargement au clic (plus léger, pas de cookies avant lecture)
+let cur=null;
 document.querySelectorAll('.yt').forEach(b=>b.addEventListener('click',()=>{
-  const f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0';
-  f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;f.title='YouTube';
-  b.replaceWith(f)}));
-// une seule vidéo à la fois
-document.querySelectorAll('.vid video').forEach(v=>v.addEventListener('play',()=>document.querySelectorAll('.vid video').forEach(o=>{if(o!==v)o.pause()})));
+  if(cur){cur.f.replaceWith(cur.b);cur=null} // une seule vidéo à la fois
+  const f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+b.dataset.yt+'?autoplay=1&rel=0&playsinline=1';
+  f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;f.title='YouTube';f.referrerPolicy='strict-origin-when-cross-origin';
+  b.replaceWith(f);cur={f,b}}));
 // vidéos : défilement horizontal avec flèches
 const row=document.getElementById('vid-row');
 if(row){const ar=[...document.querySelectorAll('.vid-arrow')],AL={fr:['Précédent','Suivant'],en:['Previous','Next'],ar:['السابق','التالي']};
